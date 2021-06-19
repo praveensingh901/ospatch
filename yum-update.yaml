@@ -2,7 +2,6 @@
 - hosts: all
   become_method: sudo
   become_user: root
-  become_method: sudo
   tasks:
    - name: upgrade all packages
      yum:
